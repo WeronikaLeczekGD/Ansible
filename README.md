@@ -4,8 +4,9 @@
 
 ## [2. Create ansible playbook for deploying spring-petclinic application. It should include:](#ad-2)
 
-    Install required software depending of application artifact (java based or docker based)
-    Take specific artifact version (jar file/docker image) from local machine or Nexus and deploy it to application server.
+a) Install required software depending of application artifact (java based or docker based)
+
+b) Take specific artifact version (jar file/docker image) from local machine or Nexus and deploy it to application server.
 
 ## [3. Deploy application to remote host with ansible](#ad-3)
 
@@ -32,7 +33,7 @@ application_server:
 
 ## Ad 2
 
-my inventory.yalm:
+my playbook.yalm:
 
 ```
 - name: Deploy Spring PetClinic Application
